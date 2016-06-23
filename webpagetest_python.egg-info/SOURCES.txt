@@ -1,0 +1,6 @@
+setup.py
+webpagetest_python.egg-info/PKG-INFO
+webpagetest_python.egg-info/SOURCES.txt
+webpagetest_python.egg-info/dependency_links.txt
+webpagetest_python.egg-info/requires.txt
+webpagetest_python.egg-info/top_level.txt
