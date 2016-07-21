@@ -4,6 +4,7 @@ import threading
 
 # import project modules
 import config
+import file
 
 # vars
 assets = {}
@@ -22,6 +23,6 @@ def check_test_complete():
         assets['css'] = assets_breakdown['css']['requests']
         assets['images'] = assets_breakdown['image']['requests']
         assets['fonts'] = assets_breakdown['font']['requests']
-        print assets
+        file.createFile('assets', assets)
 
 check_test_complete()
